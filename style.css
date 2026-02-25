@@ -1,6 +1,6 @@
 .app-header {
   background: linear-gradient(135deg, #ff5722, #ff9800);
-  color: black;
+  color: white;
   padding: 15px 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -18,7 +18,7 @@
   height: 70px;
   object-fit: contain;
   border-radius: 10px;
-  background: black;
+  background: white;
   padding: 5px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .menu-card {
-  background: black;
+  background: white;
   border-radius: 15px;
   padding: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -125,58 +125,3 @@
   align-items: center;
   gap: 8px;
 }
-
-/* ===== DARK MODE OVERRIDE ===== */
-
-body {
-  background: #121212;
-  color: #f1f1f1;
-}
-
-.info-card {
-  background: #1e1e1e;
-  color: #f1f1f1;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-}
-
-.info-card h2 {
-  color: #ff9800;
-}
-
-.order-card {
-  background: linear-gradient(135deg, #ff5722, #ff9800);
-  color: white;
-}
-
-h1, h2, h3 {
-  color: #ff9f45;
-}
-
-a {
-  color: #4da6ff;
-}
-
-/* FORCE DARK MODE */
-
-html, body {
-  background: #121212 !important;
-  color: #f1f1f1;
-}
-
-/* kalau ada container utama */
-.app, .container, .main, .content {
-  background: #121212 !important;
-}
-
-/* card */
-.info-card {
-  background: #1e1e1e !important;
-  color: #f1f1f1;
-}
-
-/* judul */
-.info-card h2 {
-  color: #ff9800;
-}
-
-
