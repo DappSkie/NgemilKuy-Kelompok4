@@ -66,3 +66,39 @@
   color: #444;
 
 }
+
+.info-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  animation: fadeIn 0.5s ease;
+}
+
+.info-card h2 {
+  margin-bottom: 15px;
+  color: #ff6a00;
+  font-size: 22px;
+  border-bottom: 2px solid #ff6a00;
+  padding-bottom: 5px;
+}
+
+.info-card p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.info-card ul {
+  padding-left: 20px;
+}
+
+.info-card li {
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(10px);}
+  to {opacity:1; transform: translateY(0);}
+}
