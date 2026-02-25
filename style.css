@@ -156,3 +156,25 @@ a {
   color: #4da6ff;
 }
 
+/* FORCE DARK MODE */
+
+html, body {
+  background: #121212 !important;
+  color: #f1f1f1;
+}
+
+/* kalau ada container utama */
+.app, .container, .main, .content {
+  background: #121212 !important;
+}
+
+/* card */
+.info-card {
+  background: #1e1e1e !important;
+  color: #f1f1f1;
+}
+
+/* judul */
+.info-card h2 {
+  color: #ff9800;
+}
