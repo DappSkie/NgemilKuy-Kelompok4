@@ -1,7 +1,7 @@
 .app-header {
   background: linear-gradient(135deg, #ff5722, #ff9800);
   color: white;
-  padding: 15px;
+  padding: 15px 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -9,16 +9,27 @@
 .logo-title {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 
 .logo {
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
-  border-radius: 8px;
+  border-radius: 10px;
   background: white;
-  padding: 3px;
+  padding: 5px;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.brand-text p {
+  margin: 0;
+  font-size: 14px;
 }
 
 .menu-list {
@@ -53,4 +64,5 @@
 .menu-card p {
   font-size: 14px;
   color: #444;
+
 }
