@@ -126,3 +126,25 @@
   gap: 8px;
 }
 
+/* ===== DARK MODE OVERRIDE ===== */
+
+body {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+.info-card {
+  background: #1e1e1e;
+  color: #f1f1f1;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.info-card h2 {
+  color: #ff9800;
+}
+
+.order-card {
+  background: linear-gradient(135deg, #ff5722, #ff9800);
+  color: white;
+}
+
